@@ -1,16 +1,4 @@
-# cubit_state_test
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### A sample app of using cubit for basic state management
+---
+#### The app
+![cubit_app_flow](https://user-images.githubusercontent.com/29995627/162846929-ac9e4d10-8400-4eb2-b1d3-0858b597d005.gif)
