@@ -55,8 +55,3 @@ class RandomFactPage extends StatelessWidget {
     );
   }
 }
-
-// void submitCityName(BuildContext context, String cityName) {
-//   final weatherBloc = context.bloc<WeatherBloc>();
-//   weatherBloc.add(GetWeather(cityName));
-// }
