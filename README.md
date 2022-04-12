@@ -3,7 +3,7 @@ A sample app I made to help me learn to use cubit for basic state management.
 
 The app also showcases unit testing and widget testing with bloc.
 
-[![CI Actions Status](https://github.com/gerryau/cubit_state_test/workflows/CI/badge.svg)](https://github.com/gerryau/cubit_state_test/actions)
+[![Flutter CI](https://github.com/gerryau/cubit_state_test/actions/workflows/flutter-ci.yml/badge.svg)](https://github.com/gerryau/cubit_state_test/actions/workflows/flutter-ci.yml)
 
 ## The app
 States: [Initial, Loading, Loaded, Error]
