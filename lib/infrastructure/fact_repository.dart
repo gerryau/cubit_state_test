@@ -18,7 +18,7 @@ class FakeFactRepository implements FactRepository {
 
         // Simulate some network exception
         if (random.nextBool()) {
-          throw NetworkException();
+          throw NetworkError();
         }
 
         // Return "fetched" fact
@@ -30,4 +30,4 @@ class FakeFactRepository implements FactRepository {
   }
 }
 
-class NetworkException implements Exception {}
+class NetworkError implements Exception {}

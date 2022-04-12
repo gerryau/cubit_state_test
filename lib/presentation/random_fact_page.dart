@@ -22,7 +22,9 @@ class RandomFactPage extends StatelessWidget {
             ),
           ),
           loading: () => const Center(
-            child: CircularProgressIndicator(),
+            child: CircularProgressIndicator(
+              key: Key('progress-indicator'),
+            ),
           ),
           loaded: (fact) => Center(
             child: Column(
@@ -41,7 +43,7 @@ class RandomFactPage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("📛 $e"),
+                const Text("📛 Couldn't fetch. Are you online?"),
                 const SizedBox(height: 10),
                 ElevatedButton(
                   child: const Text('Try again'),
