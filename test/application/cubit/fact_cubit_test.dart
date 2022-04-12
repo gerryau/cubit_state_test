@@ -40,7 +40,7 @@ void main() {
         act: (FactCubit cubit) => cubit.getFact(),
         expect: () => [
           const FactState.loading(),
-          FactState.loaded(fact),
+          const FactState.loaded(fact),
         ],
         verify: (_) {
           verify(() => mockFactRepository.fetchFact()).called(1);
